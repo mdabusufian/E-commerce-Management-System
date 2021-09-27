@@ -144,7 +144,7 @@ customer\_phone\_no multivalued attribute.
 1. customer\_id, customer\_name, customer\_address, customer\_phone\_no, customer\_username, customer\_password.
 2. wishlist\_id, product\_id, **customer\_id.**
 
-No transitive dependency.
+No transitive dependency
 
 **Table:**
 
@@ -357,10 +357,10 @@ No transitive dependency.
 13. product\_id, product\_type, product\_name, **customer\_id**
 14. ~~customer\_id~~~~ , customer\_name, customer\_address, customer\_phone\_no, customer\_username, customer\_password~~
 15. cart\_id, product\_id, serial\_id, **customer\_id** , **pq\_id**
-16. ~~pq\_id~~~~ , price, quantity, total\_cost~~
-17. ~~customer\_id~~~~ , customer\_name, customer\_address, customer\_phone\_no, customer\_username, customer\_password~~
+16. ~~pq\_id~~~~, price, quantity, total\_cost~~
+17. ~~customer\_id~~~~, customer\_name, customer\_address, customer\_phone\_no, customer\_username, customer\_password~~
 18. payment\_id, card, cash\_on\_delivary, amount, **customer\_id**
-19. ~~customer\_id~~~~ , customer\_name, customer\_address, customer\_phone\_no, customer\_username, customer\_password~~
+19. ~~customer\_id~~~~, customer\_name, customer\_address, customer\_phone\_no, customer\_username, customer\_password~~
 20. order\_id, total\_cost, product\_id, date\_of\_order, **customer\_id**
 21. product\_id, product\_type, product\_name, **cart\_id**
 22. ~~cart\_id~~~~ , product\_id, serial\_id, ~~~~**pq\_id**~~
