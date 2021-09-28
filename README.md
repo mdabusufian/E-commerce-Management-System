@@ -118,6 +118,7 @@ No multivalued attribute.
 
 No transitive dependency.
 
+
 **Table:**
 
 1. category\_id, category\_name
